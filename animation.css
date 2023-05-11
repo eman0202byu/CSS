@@ -1,0 +1,43 @@
+* {
+    border-color: black;
+    background-color: black;
+}
+
+
+p {
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20vh;
+    color: wheat;
+
+    animation: demo 1s /*infinite*/;
+
+}
+
+@keyframes demo {
+    from{
+        font-size: 0vh;
+    }
+    80%{
+        font-size: 23vh;
+    }
+    90%{
+        color: red;
+    }
+    to{
+        font-size: 0vh;
+    }
+}
+
+/* @media (orientation: portrait){
+    body {
+        flex-direction: column;
+    }
+}
+@media ((orientation: portrait) and (max-height:500px)){
+    p{
+        display: none;
+    }
+} */

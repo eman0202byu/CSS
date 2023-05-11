@@ -1,0 +1,60 @@
+div, p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+    /*transform: rotate(-245deg);*/
+    border: blue 20px solid;
+    border-radius: 50%;
+    margin: 2em;
+    padding: 20px;
+    background-color: black;
+}
+
+/*
+
+body section{
+
+Desendant
+
+}
+
+section > p{
+
+Child
+
+}
+
+p:hover{
+
+Pseudo
+When you hover over a p it does somthing
+#flag:hover also works
+
+}
+
+*/
+
+#flag {
+    color: blue;
+}
+
+.c2020{
+    background-color: gold;
+    font-size: 10vh;
+}
+
+.c2021{
+    background-color: aliceblue;
+    font-size: 10vmin;
+}
+
+.c2022{
+    background-color: beige;
+}
+
+p.c2020{
+    background-color: black;
+}
